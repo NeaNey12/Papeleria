@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Ingreso</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/masterPage.css" />
+    <link rel="icon" href="img/icon.ico" />
+  </head>
+
+  <body>
+    <div id="sidemenu" class="menu-expanded">
+      <div id="header">
+        <a href="home.html">
+        <div id="title"><span><img src="img/banner.png" alt="" /></span>
+        </a>
+        </div>
+        <div id="menu-btn">
+          <div class="btn-hamburger"></div>
+          <div class="btn-hamburger"></div>
+          <div class="btn-hamburger"></div>
+        </div>
+      </div>
+
+      <div id="profile">
+        <div id="photo"></div>
+      </div>
+
+      <div id="menu-items">
+        <div class="item">
+          <a href="home.html"></a>
+            <div class="icon"><img src="img/home.png" /></div>
+            <div class="title"><span>Inicio</span></div>
+        </div>
+
+        <div class="item">
+          <a href="index.html">
+            <div class="icon"><img src="img/papeleria.png" /></div>
+            <div class="title"><span>Papeleria</span></div>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="">
+            <div class="icon"><img src="img/icono.png" /></div>
+            <div class="title"><span>Vender</span></div>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="">
+            <div class="icon"><img src="img/icono.png" /></div>
+            <div class="title"><span>Clientes</span></div>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="">
+            <div class="icon"><img src="img/icono.png" /></div>
+            <div class="title"><span>Informes</span></div>
+          </a>
+
+        </div>
+
+        <div class="item">
+          <a href="index.html">
+            <div class="icon"><img src="img/iconoIniciarSesion.png" /></div>
+            <div class="title"><span>Iniciar Sesion</span></div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  <script src="main.js"></script>
+
+
+    <script>
+      const btn = document.querySelector("#menu-btn");
+      const menu = document.querySelector("#sidemenu");
+
+      btn.addEventListener("click", (e) => {
+        menu.classList.toggle("menu-expanded");
+        menu.classList.toggle("menu-collapsed");
+
+        document.querySelector("body").classList.toggle("body-expanded");
+      });
+    </script>
+  </body>
+</html>

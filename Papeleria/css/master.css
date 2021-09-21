@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(circle at 42.2% 66.72%, #565655 0, #27323c 50%, #001124 100%);
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+/*--------LOGIN--------*/
+
+.login-box {
+  width: 320px;
+  height: 390px;
+  background: #00BAFF;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 4%;  
+}
+
+.login-box .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box ::placeholder {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+}
+
+.login-box [type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.login-box input[type="submit"] {
+  border: solid 2px;
+  outline: none;
+  height: 40px;
+  background: #fff;
+  color: #062346;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  border: none;
+  cursor: pointer;
+  background: #062346;
+  font-weight: bold;
+  color: #fff;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.login-box a:hover {
+  color: #062346;
+}
+
+.login-box .btn-cerrar-popup {
+  top: -10%;
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #062346;
+}
+
+.login-box .btn-cerrar-popup:hover {
+	color: #fff;
+}
+
+/*--------REGISTER--------*/
+
+.register-box {
+  width: 640px;
+  height: 420px;
+  background: #00BAFF;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 4%;  
+}
+
+.register-box .registro {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.register-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.register-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.register-box input {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.register-box ::placeholder {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+}
+
+.register-box .nameRegister {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: rgb(235, 235, 235);
+}
+
+.register-box .nameRegister {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.register-box .labelLastnameRegister {
+  top: 28%;
+  left: 50%;
+  position: absolute;
+}
+
+.register-box .lastnameRegister {
+  top: 32.6%;
+  left: 50%;
+  position: absolute;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.register-box .usernameRegister {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  width: 100%;
+  color: #fff;
+  font-size: 17px;
+}
+
+.register-box .passwordRegister {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.register-box .labelPasswordRegister {
+  top: 59.5%;
+  left: 50%;
+  position: absolute;
+}
+
+.register-box .passwordConfirmRegister {
+  top: 64%;
+  left: 50%;
+  position: absolute;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.register-box input[type="submit"] {
+  top: 76%;
+  left: 25%;
+  position: absolute;
+  border: solid 2px;
+  outline: none;
+  height: 40px;
+  background: #fff;
+  color: #062346;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.register-box input[type="submit"]:hover {
+  border: none;
+  cursor: pointer;
+  background: #062346;
+  font-weight: bold;
+  color: #fff;
+}
+
+.register-box a {
+  top: 89%;
+  left: 30%;
+  position: absolute;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.register-box a:hover {
+  color: #062346;
+}
+
+.register-box .btn-cerrar-popup {
+  top: 5%;
+  right: 5%;
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #062346;
+}
+
+.register-box .btn-cerrar-popup:hover {
+	color: #fff;
+}
